@@ -1,0 +1,9 @@
+PSWORDFORFILE
+*.pdf
+*.c
+*.log
+**/fq.g
+*.docx
+*.sav
+
+
