@@ -1,0 +1,7 @@
+organism="Cosmocarta"
+db="nucleotide"
+efetchstuff=$(wget -qO- "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=${db}&term=${organism}&usehistory=y" \  | egrep "QueryKey|WeMCID")
+webMCID=$(echo ${efetchstuff}|awk 'BEGIN{FS="><";}{print $(NF-2)}')
+QueryKey=$(echo ${efetchstuff}|awk 'BEGIN{FS="><";}{print $NF-5}')
+echo $efetchstuff 
+echo $webMCID
