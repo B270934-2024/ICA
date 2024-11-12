@@ -1,0 +1,4 @@
+BLASTING TIME BAYBEE
+To check for sequences, each FASTA sequence starts with a ">".
+
+So just grep -c ">" nem.fasta 

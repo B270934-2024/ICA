@@ -1,0 +1,75 @@
+2045422 	 GABA type A receptor-associated protein
+161810022 	 dynamin 3
+32198483 	 dynamin 1
+21336167 	 dynamin 2
+130506702 	 inosine triphosphatase (nucleoside triphosphate pyrophosphatase)
+61857190 	 myelocytomatosis oncogene
+17889593 	 proline dehydrogenase
+77882250 	 proline-serine-threonine phosphatase-interacting protein 2
+69833112 	 solute carrier family 2 (facilitated glucose transporter), member 4
+117994154 	 lysine (K)-specific demethylase 4A
+39113554 	 lysine (K)-specific demethylase 7A
+30193011 	 proline dehydrogenase (oxidase) 2
+69882196 	 gamma-aminobutyric acid receptor associated protein
+136277844 	 lysine (K)-specific demethylase 1A
+98084049 	 dynamin 1-like
+36002535 	 dynamin 1
+76892381 	 dynamin 3
+95483105 	 MYC proto-oncogene, bHLH transcription factor
+55164721 	 solute carrier family 2 member 4
+28254344 	 dynamin 2
+138338549 	 inosine triphosphatase
+64937210 	 kinesin family member 5A
+154066436 	 lysine demethylase 1A
+55213465 	 GABA type A receptor-associated protein
+1963132 	 Myc
+4470818 	 Myc
+147890 	 dynamin-related GTPase DNM1
+425186 	 proline dehydrogenase
+107706 	 Myc
+6994987 	 Kinesin-like protein unc-104
+5538488 	 Dynamin-1-like protein drp-1
+15568921 	 Dynamin
+804222945 	 dynamin related protein 1
+5334550 	 inosine triphosphatase
+270338357 	 dynamin related protein 1
+157586004 	 dynamin related protein 1
+3373159 	 Myc
+16266960 	 Kinesin heavy chain
+12746616 	 Kinesin light chain
+5888586 	 proline dehydrogenase (oxidase) 1a
+4786444 	 solute carrier family 2 member 4
+153448306 	 solute carrier family 2 (facilitated glucose transporter), member 4
+10256869 	 GABA type A receptor-associated protein
+138727207 	 v-myc avian myelocytomatosis viral oncogene homolog
+6647572 	 solute carrier family 2, facilitated glucose transporter member 1-like
+17750432 	 GABA type A receptor-associated protein
+7240008 	 GABA type A receptor-associated protein
+44924711 	 kinesin family member 18B
+128203379 	 dynamin 1
+10718079 	 dynamin 2
+67119263 	 lysine demethylase 2A
+23019468 	 lysine demethylase 1A
+4969113 	 lysine demethylase 4B
+171841498 	 dynamin 3
+3204065 	 inosine triphosphatase
+127735434 	 MYC proto-oncogene, bHLH transcription factor
+39293228 	 kinesin family member 21A
+18912781 	 proline dehydrogenase 1
+280057 	 lysine demethylase 5A
+35176380 	 splicing factor proline and glutamine rich
+7281718 	 solute carrier family 2 member 4
+44873188 	 lysine demethylase 6A
+140084746 	 lysine demethylase 7A
+28020619 	 kinesin family member 18A
+53176277 	 lysine demethylase 5C
+43650149 	 lysine demethylase 4A
+32343488 	 solute carrier family 2 member 4
+25544697 	 MYC proto-oncogene, bHLH transcription factor
+32313526 	 GABA type A receptor-associated protein
+18489683 	 inosine triphosphatase
+70067943 	 MYC proto-oncogene, bHLH transcription factor
+29772340 	 inosine triphosphatase
+27006232 	 inosine triphosphatase
+52596130 	 GABA type A receptor-associated protein
+52628746 	 solute carrier family 2 member 4
