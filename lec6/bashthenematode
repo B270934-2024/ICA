@@ -1,0 +1,28 @@
+## tell the computer where bash is
+usr/bin/bash
+#args = 
+rm HSPsSubjectAssession.tsv
+rm outout
+rm AlignmentLengthPercentageIDs.tsv
+rm HSPPercentAlignMismatch.tsv
+rm HSPPercentAlignMismatchAbove20.tsv
+rm HSPPercentAlignAbove100MismatchAbove20.tsv
+## all lines we want contain the following characters
+sed -n '/gi|/,/.1|/p' blastoutput2.out > outout
+#Just find field 2 and print that to a new file.
+touch HSPsSubjectAssession.tsv
+echo -e "SubjectAssession" > HSPsSubjectAssession.tsv
+cut -f 2-2 outout >> HSPsSubjectAssession.tsv
+#list alignment length and percentage IDs for all
+touch AlignmentLengthPercentageIDs.tsv
+echo -e "PercentageID\tAlignmentLength" > AlignmentLengthPercentageIDs.tsv
+cut -f 3-4 outout >> AlignmentLengthPercentageIDs.tsv
+#show the HSPs with more than 20 mismatches
+echo -e "SubjectAssession\tPercentageID\tAlignmentLength\tMismatches" > HSPPercentAlignMismatch.tsv
+cut -f 2-5 outout >> HSPPercentAlignMismatch.tsv
+touch HSPPercentAlignMismatchAbove20.tsv
+echo -e "SubjectAssession\tPercentageID\tAlignmentLength\tMismatches" > HSPPercentAlignMismatchAbove20.tsv
+awk 'BEGIN{FS="\t";OFS="\t"}{if($4>20){print $1,$2,$3,$4}}' HSPPercentAlignMismatch.tsv >> HSPPercentAlignMismatchAbove20.tsv
+#show the HSPs shorter than 100 amino acids and with more than 20 mismatches
+awk 'BEGIN{FS="\t";OFS="\t"}{if(($4>20) && ($2>100)){print $1,$2,$3,$4}};' HSPPercentAlignMismatch.tsv > HSPPercentAlignAbove100MismatchAbove20.tsv
+

@@ -1,0 +1,47 @@
+commit 2ce472a3f2af14edf2ef5acf30db882c3c8e971c
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:56:31 2024 +0100
+
+    Cleanup done. Removed old codefiles within current codefiles.
+
+commit 67562bc09cc6fbfffa3a5cac7f943f2800f08a1e
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:51:30 2024 +0100
+
+    Renaming completed. CodeFiles now contains a further compressed file, which contains the original data. Also contains updated .SH and the motif. OldMotifFileAndOldSH.tar remains as a log of the previous working code.
+
+commit 759fc6204a0cad79666831526ab2e25f8406292c
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:42:36 2024 +0100
+
+    Updated CodeFiles.tar to include the new afilecalledsh
+
+commit 9334c971c24ee98fcebd6e0f4fd35621250db5a1
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:41:17 2024 +0100
+
+    Updated afilecalled.sh to include text.
+
+commit 26f569d552ea5cafcc36566413980360d3f0095a
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:38:41 2024 +0100
+
+    Added on somefile.sh. Put a version into codefiles.tar.
+
+commit 36f78e7965203bf3eb36c14278be5d1c9d3a283d
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:34:11 2024 +0100
+
+    Discovered what \'z\' was. Found another motif_file.txt inside, and a compressed CodeFiles thing as well. Put them all in. Also modified the motif_file.txt.
+
+commit 68c10adec3f94287b58209ba65d6ecbebabbcd57
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:20:55 2024 +0100
+
+    CodeFiles zipped and tarred
+
+commit 18161db6c7a5e2aaa40c2738303ce5b08149c063
+Author: anonymous <EmailWithheld>
+Date:   Fri Sep 27 12:18:36 2024 +0100
+
+    first file added woo

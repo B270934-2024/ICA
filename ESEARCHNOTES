@@ -1,0 +1,4 @@
+esearch -db nucleotide -query "Cosmoscarta[organism]"|efetch -format uid > Cosmoscarta.nuc.gis
+esearch -db nucleotide -query "Cosmoscarta[organism]"|efetch -format fasta > Cosmoscarta.nuc.fa
+
+
