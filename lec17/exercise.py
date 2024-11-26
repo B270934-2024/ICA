@@ -15,13 +15,26 @@ euk=pd.read_csv('eukaryotes.txt',sep="\t",na_values=['-'])
 df=pd.read_csv('eukaryotes.txt',sep="\t",na_values=['-']) #no index
 fungisubset=euk[euk.apply( lambda x : x['Size (Mb)'] > 100 and x['Group'] in ['Fungi'], axis=1 )]
 names=(fungisubset['#Organism/Name'].value_counts())
-print()
+print(dict(names))
 x=0
-while x <= fungisubset.shape[0]:
-    print(names[x],end=', ')
-    x+=1
-print(euk.groupby['Groups']).mean()
+#while x <= fungisubset.shape[0]:
+#    print(names[x],end=', ')
+#    x+=1
+#euk.groupby['Group'].mean()
+#df.groupby['Group'].mean()
+for Group in ['Plants', 'Animals', 'Fungi', 'Protists']:
+    count = len(df[df['Group'] == Group])
+    count_unique = len(df[df['Group'] == Group].drop_duplicates('#Organism/Name'))
+    print("{} genomes for {} ({} unique)".format(count, Group, count_unique))
 
+helicon=df[df.apply( lambda x : x['#Organism/Name'].startswith('Heliconius'),axis=1)]
+print(helicon[['#Organism/Name','Scaffolds']])
+
+print(df[df['Group']=='Plants']['Center'].value_counts().head())
+
+df['Proteins per Gene']=df['Proteins']/df['Genes']
+
+print(df[df['Proteins per Gene'] >= 1.1]['#Organism/Name','Genes','Proteins','Proteins per Gene'])
 #value_counts()
 #x=0
 #while x <= fungisubset.iloc[:,0:3].shape[0]:
